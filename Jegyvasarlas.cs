@@ -9,7 +9,7 @@ namespace KalandparkJegykezelo
         public string LatogatoNev { get; set; }
         public int FelnottJegyek { get; set; }
         public int GyerekJegyek { get; set; }
-    }
+    
     public Jegyvasarlas(string sor)
         {
             string[] darabol = sor.Split(';');
